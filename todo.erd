@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="todo">
+	<entities>
+		<data-source id="mysql8-18b1ce74fb3-1498dad1c0a0dd08">
+			<entity id="1" name="categories" fq-name="todo.categories">
+				<path name="todo"/>
+			</entity>
+			<entity id="2" name="followers" fq-name="todo.followers">
+				<path name="todo"/>
+			</entity>
+			<entity id="3" name="hashtags" fq-name="todo.hashtags">
+				<path name="todo"/>
+			</entity>
+			<entity id="4" name="likes" fq-name="todo.likes">
+				<path name="todo"/>
+			</entity>
+			<entity id="5" name="posts" fq-name="todo.posts">
+				<path name="todo"/>
+			</entity>
+			<entity id="6" name="posts_hashtags" fq-name="todo.posts_hashtags">
+				<path name="todo"/>
+			</entity>
+			<entity id="7" name="reports" fq-name="todo.reports">
+				<path name="todo"/>
+			</entity>
+			<entity id="8" name="users" fq-name="todo.users">
+				<path name="todo"/>
+			</entity>
+			<entity id="9" name="views" fq-name="todo.views">
+				<path name="todo"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="posts_ibfk_2" fq-name="todo.posts.posts_ibfk_2" type="fk" pk-ref="1" fk-ref="5"/>
+		<relation name="posts_hashtags_ibfk_2" fq-name="todo.posts_hashtags.posts_hashtags_ibfk_2" type="fk" pk-ref="3" fk-ref="6"/>
+		<relation name="likes_ibfk_1" fq-name="todo.likes.likes_ibfk_1" type="fk" pk-ref="5" fk-ref="4"/>
+		<relation name="posts_hashtags_ibfk_1" fq-name="todo.posts_hashtags.posts_hashtags_ibfk_1" type="fk" pk-ref="5" fk-ref="6"/>
+		<relation name="reports_ibfk_2" fq-name="todo.reports.reports_ibfk_2" type="fk" pk-ref="5" fk-ref="7"/>
+		<relation name="views_ibfk_1" fq-name="todo.views.views_ibfk_1" type="fk" pk-ref="5" fk-ref="9"/>
+		<relation name="followers_ibfk_1" fq-name="todo.followers.followers_ibfk_1" type="fk" pk-ref="8" fk-ref="2"/>
+		<relation name="followers_ibfk_2" fq-name="todo.followers.followers_ibfk_2" type="fk" pk-ref="8" fk-ref="2"/>
+		<relation name="likes_ibfk_2" fq-name="todo.likes.likes_ibfk_2" type="fk" pk-ref="8" fk-ref="4"/>
+		<relation name="posts_ibfk_1" fq-name="todo.posts.posts_ibfk_1" type="fk" pk-ref="8" fk-ref="5"/>
+		<relation name="reports_ibfk_1" fq-name="todo.reports.reports_ibfk_1" type="fk" pk-ref="8" fk-ref="7"/>
+		<relation name="views_ibfk_2" fq-name="todo.views.views_ibfk_2" type="fk" pk-ref="8" fk-ref="9"/>
+	</relations>
+</diagram>
