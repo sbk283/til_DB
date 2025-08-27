@@ -23,3 +23,13 @@
 - followers
 
 - [mermaid 테이블간의 연결](https://mermaid.live/edit#pako:eNqlVNtuozAU_BXLz2lEaFMIbyilDUq2RMC2u1UkZIELqIAjYzbbpvz72iFclTSq9g3PmZlzbI_ZQ58EGGoQ07sYhRSlmwyAn45hO-Dz8-qK7MHaclwHaGADUcEiQr042EDBmuuu8WDZpnGC6iOGQ0LfG3JV6vK8he4sXP2hElSsBrpE7E24MpdGt9jrNSz2lE-m8XxWOSz2lPfWamU9C0AQXkmSkB1uz-YyF5_m2sbast2zMw3LrX4vPgEwH10QB2C9rJZPuj1f6DbAKYqTPrRFeb4jNPAilEf9UoZSXCGu-fhbWKLwAJS9S_q6JUNhI-lE5WtR3blsd36hS8ySelbjlwt8kjGcsQq5421d84fBWfWGhE0Sv2HPJ0VNE9ifGO-GWJN3cL9s0U60j3g7rHfhbMRyS3I29BRXwM9rYFlF93tORY7pwKbK8X_btCk-b9V5Bz27Tua7lnWazxv25zg9bx0FilFOssHN-xxlOPAQO3aFIxjSOIAaowUewRRT_jT4Eh6G2EAWYZ4VKB5YgOibeGQl12xR9kJIWssoKcIIaq8oyfmq2Aa8yfEH2qAUZwGmc5EpqE1vJwcTqO3hX6gps7F6o3BQkqYTRZnJI_gOtYk6Gc8mkizxyo08Va7lcgQ_Dm2lsSqrt-q1zEFlqswUufwHL9Kw4w)
+
+## 2. 각 Entity 의 속성을 정의한다.
+
+- pk 속성
+- 일반속성
+
+## 3. 테이블 구조를 만들고 가능하면 ERD 그려서 챗 GPT 로 작성 후 살펴보자.
+
+- ERDcloud - https://www.erdcloud.com/
+- diagrams - https://app.diagrams.net/
